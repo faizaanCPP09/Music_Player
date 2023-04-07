@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_main"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hawayein"
+        android:textColor="#fff"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jab Harry Met Sejal"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_margin="29dp"
+        android:layout_marginVertical="12dp"
+        app:srcCompat="@drawable/design" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:progress="50"
+        android:gravity="center"
+        android:layout_marginVertical="12dp" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src= "@drawable/baseline_skip_previous_24"
+        android:background="@drawable/btn_bg"/>
+
+
+    <ImageButton
+        android:id="@+id/btnPlay"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src= "@drawable/baseline_play_circle_filled_24"
+        android:layout_marginHorizontal="12dp"
+        android:background="@drawable/btn_bg"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src= "@drawable/baseline_skip_next_24"
+        android:background="@drawable/btn_bg"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
